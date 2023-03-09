@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1100px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left-side
+{
+    position: relative;
+    background: #626262;
+    padding: 40px;
+}
+.container .right-side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    
+    
+}
+.profile .avatar
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 3px solid orange;
+}
+.profile .avatar img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile h2
+{
+    color:#fff;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4em;
+
+}
+.contact-info
+{
+    margin-top: 30px;
+}
+.title
+{
+    color:#fff;
+    margin-bottom: 25px;
+}
+
+.contact-info a{
+    color: #fff;
+    text-decoration: none;
+
+        
+}
+.contact-info ul
+{
+    position: relative;
+
+}
+.contact-info ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    cursor:pointer;
+}
+.contact-info p
+{
+    color:#fff;
+    margin:20px 0;
+}
+.contact-info ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.contact-info ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+#about
+{
+    margin: 30px;
+}
+
+#about hr
+{
+    margin: -45px -70px 54px -70px;
+    border: 0.1px solid red; 
+
+}
+
+
+#about div.title h2 {
+    background: #fff;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 20px 8px 20px;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+ 
+#about p,h4{
+    line-height: 1.8em;
+    margin-bottom: 10px;
+    
+}
